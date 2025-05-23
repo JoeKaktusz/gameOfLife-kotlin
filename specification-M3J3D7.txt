@@ -1,0 +1,15 @@
+Homework Project Specification
+
+Application: Game of Life Simulator
+
+This application will implement Conway's Game of Life cellular automaton with an interactive graphical interface. Users will be able to:
+
+- Click cells to toggle their alive/dead state on a grid
+- Start/stop/pause the simulation
+- Step through generations manually
+- Clear the grid or generate random initial patterns
+- Adjust simulation speed via a slider control
+- Zoom in and out of the simulation grid
+- Infinity game space 
+
+The grid will follow standard Game of Life rules where cells survive, die, or are born based on neighbor counts. The GUI will be built using JavaFX. The application will include basic controls for resetting and modify the simulation and toggling wrap-around edges. 
